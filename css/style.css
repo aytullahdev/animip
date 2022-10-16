@@ -1,0 +1,91 @@
+.card{
+    background-color: rgb(88, 109, 65);
+    width: 300px;
+    box-shadow: 0 0 3px black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    
+}
+.card>.card-img{
+    width: 100%;
+}
+.card>.card-body{
+    color: white;
+}
+.card>.card-body>.product-name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.product-desc{
+    text-align: left;
+    padding: 0 10px;
+}
+.reviews{
+    display: flex;
+}
+.reviwicon{
+    width: 20px;
+    color: rgb(255, 111, 1);
+}
+.orderbtn{
+    color: white;
+    background-color: rgb(97, 193, 19);
+    border: none;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.product-price{
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.secHeading{
+    font-size: 40px;
+    text-align: center;
+}
+.secHeading>span{
+    color: orange;
+}
+.chart{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 200px;
+    right: -100%;
+    transition:  0.5s linear;
+    background-color: rgba(255, 255, 255, 0.921);
+}
+.cart{
+    width: 40px;
+    position: fixed;
+    right: 5px;
+    color: rgb(235, 61, 8);
+   
+    cursor: pointer;
+}
+.slideRight{
+    right: 0;
+}
+.chartide{
+    position: absolute;
+    top: -18px;
+    left: 0;
+    color: black;
+    font-size: 20px;
+}
